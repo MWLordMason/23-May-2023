@@ -26,9 +26,13 @@ let toyInventory2023 = [
 
 // Answer:
 
-function removeFaultyToys (toyInventory) {
-    return toyInventory.filter((chemicals) => chemicals.containsChemicals === false)
-}
+// function removeFaultyToys (toyInventory) {
+//     return toyInventory.filter((chemicals) => chemicals.containsChemicals === false)
+// }
 
-console.log(removeFaultyToys(toyInventory2023))
+// console.log(removeFaultyToys(toyInventory2023))
+
+toyInventory2023.filter((chemicals) => {
+    console.log(chemicals.containsChemicals === false)
+})
 
