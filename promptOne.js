@@ -28,7 +28,8 @@ let listOfTributes = [
 // Answer:
 
 let tributeAnnouncements = listOfTributes.map((person) => {
-    return `${person.name} from district ${person.district}`
+    let announcement = `${person.name} from district ${person.district}`
+    return announcement
 });
 
 console.log(tributeAnnouncements)
