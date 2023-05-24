@@ -27,6 +27,8 @@ let listOfTributes = [
 
 // Answer:
 
-listOfTributes.forEach((person) => {
-    console.log(`${person.name} from district ${person.district}`)
-})
+let tributeAnnouncements = listOfTributes.map((person) => {
+    return `${person.name} from district ${person.district}`
+});
+
+console.log(tributeAnnouncements)
